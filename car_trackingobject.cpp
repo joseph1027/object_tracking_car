@@ -124,7 +124,7 @@ int main(int argc, const char** argv)
 	createTrackbar("Smin", "CamShift Demo", &smin, 255, 0);
 	createTrackbar("Smax", "CamShift Demo", &smax, 255, 0);
 
-	Mat frame, hsv, hue, mask, hist, histimg = Mat::zeros(200, 320, CV_8UC3), backproj;//zeros 創建全黑空圖 200 320
+	Mat frame, hsv, hue, mask, hist, histimg = Mat::zeros(200, 320, CV_8UC3), backproj;
 	bool paused = false;
 
 	while (1)
