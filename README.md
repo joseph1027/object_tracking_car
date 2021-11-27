@@ -1,4 +1,4 @@
-# termproject
+# object_tracking_car_project
 I used Arduino Yun to make a car. Then I connect the Arduino Yun with a Webcam.
 Arduino Yun caught streaming with webcam and send the streaming through wifi to my laptop.
 My laptop ran the  OpenCV code to find out where is the object that we were tracking.
